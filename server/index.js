@@ -1,7 +1,3 @@
-/*import express from "express";
-import bodyParser from "body-parser";
-import mongoose from "mongoose";
-import cors from 'cors';*/
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -10,8 +6,6 @@ var cors = require('cors');
 const connectDB = require('./db/connect');
 const adminRoutes = require('./routes/admin');
 const orderRoutes = require('./routes/orders');
-/*import adminRoutes from './routes/admin.js';
-import orderRoutes from './routes/orders.js';*/
 
 const app = express();
 
